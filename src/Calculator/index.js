@@ -1,5 +1,5 @@
 const calculator = {
-    Sum(numberLeft, numberRight) {
+    sum(numberLeft, numberRight) {
       return numberLeft + numberRight;
     },
   };
