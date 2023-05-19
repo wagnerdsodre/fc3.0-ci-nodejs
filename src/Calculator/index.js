@@ -1,7 +1,8 @@
 const calculator = {
-    sum(numberLeft, numberRight) {
+    Sum(numberLeft, numberRight) {
       return numberLeft + numberRight;
     },
   };
   
   module.exports = calculator;
+  
