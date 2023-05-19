@@ -15,7 +15,7 @@ jobs:
              with:
               node-version: ${{ matrix.node }}          
           - run: npm install
-          - run: npm test
+          - run: npm test -coverprofile=coverage.out
         name: SonarCloud Scan
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
