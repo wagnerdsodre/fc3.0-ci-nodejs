@@ -14,8 +14,8 @@ jobs:
           -  uses: actions/setup-node@v3
              with:
               node-version: ${{ matrix.node }}          
-          - run: npm install && npm install jest 
-          - run: npm jest --coverage
+          - run: npm install
+          - run: npm run test
         name: SonarCloud Scan
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
