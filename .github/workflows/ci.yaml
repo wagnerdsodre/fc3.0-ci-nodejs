@@ -1,4 +1,4 @@
-name: ci-node-workflow
+name: ci-node-workflows
 on:
   pull_request:
     branches: [ develop ]
